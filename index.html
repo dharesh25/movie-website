@@ -45,8 +45,13 @@
         </div>
     </div>
     <div class="sidebar">
+        <button class="button-search-icon" id="searchButton" onclick="toggleSearchBox()">
         <i class="left-menu-icon fa-solid fa-magnifying-glass"></i>
+    </button>
+        <input type="text" name="" id="search-item" placeholder="search">
+        <button id="home-button">
         <i class="left-menu-icon fa-solid fa-house"></i>
+    </button>
         <i class="left-menu-icon fa-solid fa-users"></i>
         <i class="left-menu-icon fa-solid fa-bookmark"></i>
         <i class="left-menu-icon fa-solid fa-tv"></i>
@@ -65,7 +70,7 @@
             <div class="movie-list-container">
                 <h1 class="movie-list-title">NEW RELEASES</h1>
                 <div class="movie-list-wrapper">
-                    <div class="movie-list">
+                    <div class="movie-list" id="movie-list-all">
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="img/1.jpeg" alt="">
                             <span class="movie-list-item-title">Her</span>

@@ -25,4 +25,13 @@ ball.addEventListener("click",()=>{
         item.classList.toggle("active")
     })
     ball.classList.toggle("active")
-})
+});
+
+function toggleSearchBox() {
+    var searchitem = document.getElementById("search-item");
+    if (searchitem.style.display === "none") {
+      searchitem.style.display = "block";
+    } else {
+      searchitem.style.display = "none";
+    }
+  }
